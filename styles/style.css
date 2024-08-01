@@ -193,6 +193,42 @@ select{
     transform: translate(-50%, -50%);
 }
 
+.choose-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.choose-p{
+    width: 670px;
+}
+.choose-container img{
+    width: 64px;
+}
+
+.choose-content{
+    display: flex;
+    text-align: left;
+    margin-top: 5rem;
+}
+.choose-card{
+    padding: 3rem;
+    
+}
+.choose-card p{
+    text-align: left;
+}
+.choose-card h4{
+    margin: 1rem 0;
+}
+.choose-row-3{
+    width: 50%;
+    text-align: left;
+}
+
+
 /* footer section */
 
 .footer-section{
