@@ -192,7 +192,7 @@ select{
     font-weight: bold;
     transform: translate(-50%, -50%);
 }
-
+/* choose section start */
 .choose-container{
     display: flex;
     flex-direction: column;
@@ -227,7 +227,65 @@ select{
     width: 50%;
     text-align: left;
 }
+/* choose section end */
+.deal-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.deal-title-p{
+    width: 800px;
+}
+.deal-content{
+    margin:5rem 0;
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
 
+}
+.deal-second-content{
+    align-items: start;
+}
+.deal-content-items{
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 2rem;
+    width: 580px;
+    height: 390px;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 3rem;
+    
+}
+.deal-content-items h4{
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 1.5rem 0;
+}
+.deal-content-items h5{
+    color: rgb(255, 84, 0);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 1.5rem 0;
+}
+.deal-content-items p{
+    text-align: left;
+}
+.deal-btn{
+    margin: 0;
+}
 
 /* footer section */
 
@@ -294,6 +352,24 @@ select{
     .row-2,
     .row-3{
         grid-template-columns: 1fr;
+    }
+    .choose-p{
+        width: 95%;
+    }
+    .choose-container img{
+        width: 64px;
+    }
+    
+    .choose-content{
+        flex-direction: column;
+        
+    }
+    .choose-card{
+        padding: 2.4rem;
+    }
+    .choose-row-3{
+        width: 80%;
+        text-align: left;
     }
 
 }
