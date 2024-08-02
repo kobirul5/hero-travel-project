@@ -298,6 +298,10 @@ select{
     align-items: center;
     gap: 3rem;    
 }
+.simple-container iframe{
+    width:560px;
+    height:315px;
+}
 .simple-container h2{
     color: rgb(19, 19, 24);
     font-size: 40px;
@@ -413,5 +417,10 @@ select{
     .deal-content-items h5{
         margin: .5rem 0;
     }
-
+    .simple-container{
+        flex-direction: column;
+    }
+    .simple-container iframe{
+        width:100%
+    }
 }
