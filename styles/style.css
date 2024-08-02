@@ -112,7 +112,6 @@ select{
     font-size: 16px;
 }
 .btn-primary{
-    width: 175px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -125,6 +124,8 @@ select{
     font-size: 16px;
     background-color: rgb(255, 84, 0);
     font-weight: 800;
+    color: white;
+    letter-spacing: 1pt;
 }
 .popular-section{
     display: grid;
@@ -289,6 +290,28 @@ select{
     margin: 0;
 }
 /* deal and discount section end */
+
+/* A Simple Perfect Place To Get Lost start */
+.simple-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;    
+}
+.simple-container h2{
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+}
+.simple-container p,
+.simple-container li{
+    text-align: left;
+    margin-top: 1rem;  
+}
+.simple-container button{
+    margin:1rem 0;  
+}
+/* A Simple Perfect Place To Get Lost end */
 
 /* footer section */
 
